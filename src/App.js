@@ -31,7 +31,7 @@ const router = createBrowserRouter(
         <Route 
           index 
           element={<Careers />} 
-          loader={<careersLoader/>} 
+          loader={careersLoader} 
         />
       </Route>
 
