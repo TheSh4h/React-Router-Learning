@@ -12,12 +12,12 @@ import Faq from './pages/help/Faq'
 import Contact from './pages/help/Contact'
 import NotFound from './pages/NotFound'
 import Careers, { careersLoader } from './pages/careers/Careers'
+import CareerDetails, { careerDetailsLoader } from './pages/careers/CareerDetails'
 
 // layouts
 import RootLayout from './layouts/RootLayout'
 import HelpLayout from './layouts/HelpLayout'
 import CareersLayout from './layouts/CareersLayout'
-import CareerDetails, { careerDetailsLoader } from './pages/careers/CareerDetails'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
